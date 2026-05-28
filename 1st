@@ -1,0 +1,60 @@
+# With function 
+def pattern(n):
+  for j in range (n):
+    print("*",end="")
+n= int(input("enter the value of n:"))
+pattern(n)
+
+#output will be------>> enter the value of n:6
+#******
+#--------------------------------------------------------------------------------------
+#Without function 
+n=int(input("enter the value of n:"))
+for j in range (n):
+  print("*",end="")
+
+
+#output will be --------->>> enter the value of n:6
+#******
+
+#--------------------------------------------------------------------------------------------
+
+# in column formate same pattern 
+def pattern(n):
+  for j in range (n):
+    print("*")
+n=int(input("enter the value of n:"))
+pattern(n)
+
+'''
+  output wil be ------->>>>enter the value of n:6
+  *
+  *
+  *
+  *
+  *
+  *
+'''
+
+#---------------------------------------------------------------------------------------
+# in column formate same pattern without function 
+n=int(input("enter the value of n:"))
+for j in range (n):
+  print("*")
+
+
+
+'''
+  output wil be ------->>>>enter the value of n:6
+  *
+  *
+  *
+  *
+  *
+  *
+'''
+
+
+
+
+
