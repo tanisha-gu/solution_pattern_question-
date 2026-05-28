@@ -1,0 +1,35 @@
+n=int(input("enter the number of n:"))
+for i in range (n):
+  for j in range(n):
+    print("*",end=" ")
+  print()
+
+  
+ """
+ enter the number of n:5
+  * * * * * 
+  * * * * * 
+  * * * * * 
+  * * * * * 
+  * * * * * 
+"""
+#with function 
+def pattern (n):
+  for i in range (n):
+    for j in range (n):
+      print("*", end=" ")
+    print()
+n=int(input("enter the value of n:"))
+pattern(n)
+
+     
+ """
+   enter the number of n:5
+    * * * * * 
+    * * * * * 
+    * * * * * 
+    * * * * * 
+    * * * * * 
+  """
+
+  
